@@ -1,0 +1,13 @@
+--Notes--
+
+- A testing suite and has a built-in assertion library
+- A test is just a function whose arguments define the test
+- Specifications define what our code should do and are ultimately what we test.
+
+Things I learned
+- I can create mock functions to be called with specifc and constant parameters to verify output(i.e. Math.random to always return the same value)
+- I can test a mock function to make sure it is called with specifc parameters
+- I can "spy" on functions to dive deeper into what the function does and test to make sure functions are called with certian parameters
+- We can narrow our assertions to be more granualar for better target isolation(i.e. using multiple assetions to distill what we expect)
+- It's good practice to keep our tests as granualar as possible
+- When creating mock functions in tests we can change global objects to reflect what we want the function to do/return

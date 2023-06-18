@@ -1,0 +1,4 @@
+[]-Create a random number
+[]-The number is an integer
+[]-The number created is within a specified range
+[]-The number is unique
